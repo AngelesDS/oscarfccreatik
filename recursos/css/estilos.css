@@ -166,6 +166,7 @@ body {
 .portafolio {
     background-color: var(--negro);
     padding-top: 1px;
+    padding-bottom: 100px;
 }
 
 .portafolio .caja-del-encabezado {
@@ -216,17 +217,79 @@ body {
     width: 800px;
 }
 
+footer {
+    background-color: var(--gris-oscuro);
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+footer .titulo {
+    color: var(--blanco);
+    font-size: 22px;
+    font-weight: 500;
+}
+
+footer p {
+    color: var(--gris-claro);
+    font-size: 14px;
+    margin-top: 30px;
+    text-align: justify;
+}
+
+footer .opciones-de-contacto {
+    margin-top: 30px;
+    font-size: 16px;
+    color: var(--gris-claro);
+    list-style: none;
+}
+
+footer .opciones-de-contacto li {
+    margin-bottom: 15px;
+}
+
+footer .opciones-de-contacto .icono {
+    margin-right: 10px;
+    height: 16px;
+    width: 16px;
+    color: var(--amarillo);
+}
+
+footer .redes-sociales {
+    margin-top: 30px;
+}
+
+footer .redes-sociales .red-social {
+    margin-right: 10px;
+    background-color: var(--gris-claro);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+footer .redes-sociales .red-social .icono {
+    height: 16px;
+    width: 16px;
+    color: var(--gris-oscuro);
+}
+
+
+
 /* estilos temporales */
       .swiper {
         width: 100%;
         height: 100%;
+        margin-left: auto;
+        margin-right: auto;
       }
 
       .swiper-slide {
         text-align: center;
         font-size: 18px;
         background: #fff;
-
+        background-size: cover;
+        background-position: center;
+        overflow: hidden;
         /* Center slide text vertically */
         display: -webkit-box;
         display: -ms-flexbox;
@@ -244,47 +307,29 @@ body {
 
       .swiper-slide img {
         display: block;
+        background-color: #0d0d0d;
         width: 100%;
         height: 100%;
         object-fit: cover;
       }
 
-      .swiper {
-        width: 100%;
-        height: 300px;
-        margin-left: auto;
-        margin-right: auto;
-      }
-
-      .swiper-slide {
-        background-size: cover;
-        background-position: center;
-      }
-
-      .mySwiper2 {
-        height: 80%;
-        width: 100%;
-      }
-
-      .mySwiper {
+      .SwiperTabNav {
         height: 20%;
         box-sizing: border-box;
         padding: 10px 0;
       }
 
-      .mySwiper .swiper-slide {
+      .SwiperTabNav .swiper-slide {
         width: 25%;
         height: 100%;
         opacity: 0.4;
       }
 
-      .mySwiper .swiper-slide-thumb-active {
+      .SwiperTabNav .swiper-slide-thumb-active {
         opacity: 1;
       }
 
-      .swiper-slide img {
-        display: block;
+      .SwipperTabMain {
+        height: 80%;
         width: 100%;
-        height: 100%;
-        object-fit: cover;
       }
