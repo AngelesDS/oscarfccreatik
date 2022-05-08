@@ -12,6 +12,40 @@ body {
     font-family: var(--fuente-principal);
 }
 
+header nav .navbar-nav .nav-item .nav-link {
+    color: var(--blanco);
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+header nav .navbar-nav .nav-item .nav-link:hover, header nav .navbar-nav .nav-item .nav-link.active {
+    color: var(--amarillo);
+}
+
+header nav .navbar-brand {
+    color: var(--blanco);
+    font-weight: 400;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+header nav .navbar-text {
+    color: var(--blanco);
+}
+
+header nav .navbar-text .icono {
+    color: var(--amarillo);
+    height: 14px;
+    width: 14px;
+    margin-right: 10px;
+}
+
+header nav .navbar-text .telefono {
+    font-size: 14px;
+    font-weight: 400;
+}
+
 .cabecera-principal {
     background-image: url(../imagenes/cabecera/IMG-20220427-WA0029.jpg);
     background-repeat: no-repeat;
